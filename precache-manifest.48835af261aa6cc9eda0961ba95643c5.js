@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "506611190c447b7d2a39c103c56bbb41",
+    "revision": "6a209691ec9aee2e1bd86f6e1576e88f",
     "url": "/sams30th/index.html"
   },
   {
-    "revision": "6f82b3726ec1c7ca553a",
-    "url": "/sams30th/static/css/main.4513adf8.chunk.css"
+    "revision": "552099ddb9da384e9cd8",
+    "url": "/sams30th/static/css/main.28f6e969.chunk.css"
   },
   {
-    "revision": "bd06a9c1e542c2ae7e2a",
-    "url": "/sams30th/static/js/2.84ef4a76.chunk.js"
+    "revision": "209073b76f91790ea83c",
+    "url": "/sams30th/static/js/2.0a1d7413.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/sams30th/static/js/2.84ef4a76.chunk.js.LICENSE.txt"
+    "url": "/sams30th/static/js/2.0a1d7413.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f82b3726ec1c7ca553a",
-    "url": "/sams30th/static/js/main.634c78c1.chunk.js"
+    "revision": "552099ddb9da384e9cd8",
+    "url": "/sams30th/static/js/main.a226bbce.chunk.js"
   },
   {
     "revision": "cb06f99b5e2de2526cf7",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5bbced1782bf528d360fd0fbae5244e4",
     "url": "/sams30th/static/media/sambo.5bbced17.png"
+  },
+  {
+    "revision": "aa96f51cbfbc4ef482f5ef20e7c11d36",
+    "url": "/sams30th/static/media/tony-montana.aa96f51c.png"
   }
 ]);
