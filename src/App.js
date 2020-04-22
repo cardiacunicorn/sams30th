@@ -6,6 +6,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      <title>Sam's 30th</title>
       <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet"></link>
       <header className="grid-container">
         <div class="grid-item item1"><img src={logo} className="App-logo sam" alt="logo" /></div>
