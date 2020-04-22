@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sams30th/static/css/main.4513adf8.chunk.css",
-    "main.js": "/sams30th/static/js/main.44af98e8.chunk.js",
-    "main.js.map": "/sams30th/static/js/main.44af98e8.chunk.js.map",
+    "main.js": "/sams30th/static/js/main.634c78c1.chunk.js",
+    "main.js.map": "/sams30th/static/js/main.634c78c1.chunk.js.map",
     "runtime-main.js": "/sams30th/static/js/runtime-main.d838dcf4.js",
     "runtime-main.js.map": "/sams30th/static/js/runtime-main.d838dcf4.js.map",
     "static/js/2.84ef4a76.chunk.js": "/sams30th/static/js/2.84ef4a76.chunk.js",
     "static/js/2.84ef4a76.chunk.js.map": "/sams30th/static/js/2.84ef4a76.chunk.js.map",
     "index.html": "/sams30th/index.html",
-    "precache-manifest.8b33dd3f1bce168979823e5f4e8686fa.js": "/sams30th/precache-manifest.8b33dd3f1bce168979823e5f4e8686fa.js",
+    "precache-manifest.1400397af5cf5070c3eae65bdaca2ea8.js": "/sams30th/precache-manifest.1400397af5cf5070c3eae65bdaca2ea8.js",
     "service-worker.js": "/sams30th/service-worker.js",
     "static/css/main.4513adf8.chunk.css.map": "/sams30th/static/css/main.4513adf8.chunk.css.map",
     "static/js/2.84ef4a76.chunk.js.LICENSE.txt": "/sams30th/static/js/2.84ef4a76.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.d838dcf4.js",
     "static/js/2.84ef4a76.chunk.js",
     "static/css/main.4513adf8.chunk.css",
-    "static/js/main.44af98e8.chunk.js"
+    "static/js/main.634c78c1.chunk.js"
   ]
 }
