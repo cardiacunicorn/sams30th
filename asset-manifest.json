@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sams30th/static/css/main.3657bbcf.chunk.css",
-    "main.js": "/sams30th/static/js/main.5a16932b.chunk.js",
-    "main.js.map": "/sams30th/static/js/main.5a16932b.chunk.js.map",
+    "main.css": "/sams30th/static/css/main.b655e2e6.chunk.css",
+    "main.js": "/sams30th/static/js/main.8af1d73d.chunk.js",
+    "main.js.map": "/sams30th/static/js/main.8af1d73d.chunk.js.map",
     "runtime-main.js": "/sams30th/static/js/runtime-main.d838dcf4.js",
     "runtime-main.js.map": "/sams30th/static/js/runtime-main.d838dcf4.js.map",
-    "static/js/2.29aea278.chunk.js": "/sams30th/static/js/2.29aea278.chunk.js",
-    "static/js/2.29aea278.chunk.js.map": "/sams30th/static/js/2.29aea278.chunk.js.map",
+    "static/js/2.9f5cd9a8.chunk.js": "/sams30th/static/js/2.9f5cd9a8.chunk.js",
+    "static/js/2.9f5cd9a8.chunk.js.map": "/sams30th/static/js/2.9f5cd9a8.chunk.js.map",
     "index.html": "/sams30th/index.html",
-    "precache-manifest.a12117c71cd1b7fbf6cae2d527139618.js": "/sams30th/precache-manifest.a12117c71cd1b7fbf6cae2d527139618.js",
+    "precache-manifest.2fa06e480fcf9487e051d7bdc4173a3d.js": "/sams30th/precache-manifest.2fa06e480fcf9487e051d7bdc4173a3d.js",
     "service-worker.js": "/sams30th/service-worker.js",
-    "static/css/main.3657bbcf.chunk.css.map": "/sams30th/static/css/main.3657bbcf.chunk.css.map",
-    "static/js/2.29aea278.chunk.js.LICENSE.txt": "/sams30th/static/js/2.29aea278.chunk.js.LICENSE.txt",
+    "static/css/main.b655e2e6.chunk.css.map": "/sams30th/static/css/main.b655e2e6.chunk.css.map",
+    "static/js/2.9f5cd9a8.chunk.js.LICENSE.txt": "/sams30th/static/js/2.9f5cd9a8.chunk.js.LICENSE.txt",
     "static/media/Diary Room.jpg": "/sams30th/static/media/Diary Room.dc46c0fc.jpg",
     "static/media/PhotoBooth Room.PNG": "/sams30th/static/media/PhotoBooth Room.62367255.PNG",
     "static/media/Snuggle Sam Room.jpg": "/sams30th/static/media/Snuggle Sam Room.d2044a5b.jpg",
@@ -20,12 +20,13 @@
     "static/media/house-sideview.png": "/sams30th/static/media/house-sideview.73aac4bc.png",
     "static/media/karaoke.jpg": "/sams30th/static/media/karaoke.69cde506.jpg",
     "static/media/sambo.png": "/sams30th/static/media/sambo.5bbced17.png",
+    "static/media/side-by-side.jpg": "/sams30th/static/media/side-by-side.2d8eaa5a.jpg",
     "static/media/tony-montana.png": "/sams30th/static/media/tony-montana.aa96f51c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d838dcf4.js",
-    "static/js/2.29aea278.chunk.js",
-    "static/css/main.3657bbcf.chunk.css",
-    "static/js/main.5a16932b.chunk.js"
+    "static/js/2.9f5cd9a8.chunk.js",
+    "static/css/main.b655e2e6.chunk.css",
+    "static/js/main.8af1d73d.chunk.js"
   ]
 }
