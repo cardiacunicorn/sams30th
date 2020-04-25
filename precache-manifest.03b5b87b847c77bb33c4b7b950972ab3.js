@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d15959e36a8ede1f773f8a2092894ddd",
+    "revision": "253de242cee74ed228ff2ed0002a8751",
     "url": "/sams30th/index.html"
   },
   {
-    "revision": "7bcd2516a9c84ed95874",
+    "revision": "2a5ea60ef789e1a7fd21",
     "url": "/sams30th/static/css/main.a0c8ef25.chunk.css"
   },
   {
-    "revision": "e096a08a66ee725e9a2a",
-    "url": "/sams30th/static/js/2.9f5cd9a8.chunk.js"
+    "revision": "0e4fbc348fac6f1d63cc",
+    "url": "/sams30th/static/js/2.41c9f2ee.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/sams30th/static/js/2.9f5cd9a8.chunk.js.LICENSE.txt"
+    "url": "/sams30th/static/js/2.41c9f2ee.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7bcd2516a9c84ed95874",
-    "url": "/sams30th/static/js/main.f9269b63.chunk.js"
+    "revision": "2a5ea60ef789e1a7fd21",
+    "url": "/sams30th/static/js/main.f27d0c1b.chunk.js"
   },
   {
     "revision": "cb06f99b5e2de2526cf7",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dc46c0fc7aa8974bda909bba3be66849",
     "url": "/sams30th/static/media/Diary Room.dc46c0fc.jpg"
+  },
+  {
+    "revision": "a730fe7b04254388b44e7862bc8566e7",
+    "url": "/sams30th/static/media/DnM.a730fe7b.jpg"
   },
   {
     "revision": "62367255cdace83ef0cf8196a93ca906",
@@ -40,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sams30th/static/media/cocktailsam.a4e0a7c9.jpg"
   },
   {
-    "revision": "64e9d9d23685971fced482a9ce021dfc",
-    "url": "/sams30th/static/media/garden.64e9d9d2.jpg"
+    "revision": "aef3ca313b5ca4557e3bf76a6b28c584",
+    "url": "/sams30th/static/media/dancefloor.aef3ca31.jpg"
   },
   {
-    "revision": "73aac4bc35ebfefaf4a14d3d6367308d",
-    "url": "/sams30th/static/media/house-sideview.73aac4bc.png"
+    "revision": "64e9d9d23685971fced482a9ce021dfc",
+    "url": "/sams30th/static/media/garden.64e9d9d2.jpg"
   },
   {
     "revision": "69cde506f8a48aa0c22990cb48410743",
