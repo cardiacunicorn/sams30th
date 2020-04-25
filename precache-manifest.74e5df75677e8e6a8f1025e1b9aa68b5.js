@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f201383f6667bff5da2d8fced737f731",
+    "revision": "6ab94d9a75410b1f9156e606d9038ee2",
     "url": "/sams30th/index.html"
   },
   {
-    "revision": "ea75b1b049b218e385b5",
-    "url": "/sams30th/static/css/main.63975dca.chunk.css"
+    "revision": "4170a7eca01b1d8ba57e",
+    "url": "/sams30th/static/css/main.364f2d04.chunk.css"
   },
   {
-    "revision": "209073b76f91790ea83c",
-    "url": "/sams30th/static/js/2.0a1d7413.chunk.js"
+    "revision": "d1789886bcd02d60a2cc",
+    "url": "/sams30th/static/js/2.75000736.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/sams30th/static/js/2.0a1d7413.chunk.js.LICENSE.txt"
+    "url": "/sams30th/static/js/2.75000736.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea75b1b049b218e385b5",
-    "url": "/sams30th/static/js/main.4b26da9f.chunk.js"
+    "revision": "4170a7eca01b1d8ba57e",
+    "url": "/sams30th/static/js/main.9092157d.chunk.js"
   },
   {
     "revision": "cb06f99b5e2de2526cf7",
     "url": "/sams30th/static/js/runtime-main.d838dcf4.js"
   },
   {
+    "revision": "d2044a5b14863162bfd81a0e441d7f57",
+    "url": "/sams30th/static/media/Snuggle Sam Room.d2044a5b.jpg"
+  },
+  {
     "revision": "73aac4bc35ebfefaf4a14d3d6367308d",
     "url": "/sams30th/static/media/house-sideview.73aac4bc.png"
+  },
+  {
+    "revision": "69cde506f8a48aa0c22990cb48410743",
+    "url": "/sams30th/static/media/karaoke.69cde506.jpg"
   },
   {
     "revision": "5bbced1782bf528d360fd0fbae5244e4",
