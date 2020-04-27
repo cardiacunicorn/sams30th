@@ -1,4 +1,10 @@
+h1 {
+  font-family: 'Press Start 2P', Helvetica, cursive;
+  max-width: 90vw;
+}
+
 .App {
+  background-color: #282c34;
   text-align: center;
 }
 
@@ -7,32 +13,79 @@
   pointer-events: none;
 }
 
+.rooms {
+  display: grid;
+}
+
+.room {
+  display: grid;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  grid-column-gap: 5vw;
+  grid-row-gap: 2vh;
+  grid-template-columns: 30vw 30vw;
+  grid-template-rows: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.intro {
+  text-align: left;
+  width: 60vw;
+  font-size: calc(10px + 0.6vmin);
+}
+
+.App-header {
+  color: magenta;
+  height: 10vh;
+  max-height: 10vh;
+  align-items: center;
+  justify-content: top;
+  font-size: 1.6vmin;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 2vmin;
+  grid-template-columns: 15vw auto 15vw;
+}
+
+.App-body {
+  color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 3s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: top;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media screen and (max-width: 768px) {
+  .room {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+   }
 
-.App-body {
-  background-color: #282c34;
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  .instructions, .room-picture {
+    grid-column: auto;
+    grid-row: auto;
+    padding: 1vw;
+  }
+
+  .intro {
+    width: 90vw;
+  }
 }
 
 @keyframes App-logo-spin {
@@ -44,46 +97,374 @@
   }
 }
 
-h1 {
-  font-family: 'Press Start 2P', Helvetica, cursive;
-  font-size: 2vw;
-  max-width: 90vw;
+.room-picture {
+  display: inline;
 }
 
-.sam {
-
+.room-picture img {
+  display: inline;
 }
 
-.grid-container {
-  display: grid;
-  grid-column-gap: 20px;
-  grid-template-columns: 15vw auto 15vw;
-  align-items: center;
-  background-color: #282c34;
+.instructions {
+  display: inline;
+  border: 5px dashed;
+  border-radius: 12px;
+  text-align: center;
+  padding: 1vw;
 }
 
-.grid-item {
-  max-height: 10vh;
-  font-size: calc(10px + 2vmin);
-  color: magenta;
+.instructions p, .instructions ol, .instructions ul {
+  font-size: calc(10px + 0.5vmin);
+  text-align: left;
 }
 
-.house {
-  height: 50vh;
-  display: grid;
-  align-items: center;
+.tour {
+  background-color: rgba(100,100,255,0.05);
+  border-color: rgba(100,100,255,0.8);
 }
 
-.housegrid {
-  height: 600px;
-  width: 800px;
-  display: grid;
-  align-items: center;
-  background-image: url("https://cdn.dribbble.com/users/1912068/screenshots/3839435/homevalue-dribbble.png");
-  background-repeat: no-repeat;
-  background-position: center;
+.tour h2 {
+  font-family: 'Slackey', cursive;
+  color: rgba(100,180,255,1);
 }
 
-.houseitem1 {
-  background-color: rgba(230,230,230,0.5);
+.bar {
+  background-color: rgba(255,100,100,0.05);
+  border-color: rgba(255,100,100,0.8);
+}
+
+.bar h2 {
+  font-family: 'Miltonian Tattoo', cursive;
+  color: rgba(200,70,70,1);
+  letter-spacing: 2px;
+}
+
+.garden {
+  background-color: rgba(100,255,100,0.05);
+  border-color: rgba(100,255,100,0.8);
+}
+
+.garden h2 {
+  font-family: 'Pacifico', cursive;
+  color: rgba(100,200,100,1);
+}
+
+.bedroom {
+  background-color: rgba(255,255,100,0.05);
+  border-color: rgba(255,255,100,0.8);
+}
+
+.bedroom h2 {
+  font-family: 'Fredericka the Great', cursive;
+  color: rgba(200,200,100,1);
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.karaoke {
+  background-color: rgba(100,255,255,0.05);
+  border-color: rgba(100,255,255,0.8);
+}
+
+.karaoke h2 {
+  font-family: 'Spicy Rice', cursive;
+  font-weight: 400;
+  color: rgba(100,200,200,1);
+  text-shadow: 2px 2px 4px #000000;
+  letter-spacing: 3px;
+}
+
+.dancefloor {
+  background-color: rgba(255,100,255,0.05);
+  border-color: rgba(255,100,255,0.8);
+}
+
+.dancefloor h2 {
+  font-family: 'Bangers', cursive;
+  color: rgba(200,100,200,1);
+  letter-spacing: 3px;
+}
+
+.private {
+  background-color: rgba(255,105,30,0.05);
+  border-color: rgba(255,105,30,0.8);
+}
+
+.private h2, .private h3 {
+  font-family: 'Princess Sofia', cursive;
+  color: rgba(200,105,30,1);
+}
+
+.diary {
+  background-color: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.8);
+}
+
+.diary h2 {
+  font-family: 'Indie Flower', cursive;
+  color: white;
+}
+
+/* Animations */
+
+.karaoke h2 {
+
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 5s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: rainbow 5s infinite;
+
+  /* Standar Syntax */
+  animation: rainbow 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+   0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+    0%{color: orange;}
+  10%{color: purple;}
+	20%{color: red;}
+  30%{color: CadetBlue;}
+	40%{color: yellow;}
+  50%{color: coral;}
+	60%{color: green;}
+  70%{color: cyan;}
+  80%{color: DeepPink;}
+  90%{color: DodgerBlue;}
+	100%{color: orange;}
+}
+
+.greenbow h2 {
+
+   /* Chrome, Safari, Opera */
+  -webkit-animation: greenbow 2s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: greenbow 2s infinite;
+
+  /* Standar Syntax */
+  animation: greenbow 2s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes greenbow{
+  0%{color: rgba(100,200,100,1);}
+  50%{color: green;}
+	100%{color: rgba(100,200,100,1);}
+}
+
+/* Internet Explorer */
+@-ms-keyframes greenbow{
+  0%{color: rgba(100,200,100,1);}
+  50%{color: green;}
+	100%{color: rgba(100,200,100,1);}
+}
+
+/* Standar Syntax */
+@keyframes greenbow{
+  0%{color: rgba(100,200,100,1);}
+  50%{color: green;}
+	100%{color: rgba(100,200,100,1);}
+}
+
+.purplebow h2 {
+
+   /* Chrome, Safari, Opera */
+  -webkit-animation: purplebow 2s infinite;
+
+  /* Internet Explorer */
+  -ms-animation: purplebow 2s infinite;
+
+  /* Standar Syntax */
+  animation: purplebow 2s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes purplebow{
+  0%{color: rgba(200,100,200,1);}
+  50%{color: purple;}
+	100%{color: rgba(200,100,200,1);}
+}
+
+/* Internet Explorer */
+@-ms-keyframes purplebow{
+  0%{color: rgba(200,100,200,1);}
+  50%{color: purple;}
+	100%{color: rgba(200,100,200,1);}
+}
+
+/* Standar Syntax */
+@keyframes purplebow{
+  0%{color: rgba(200,100,200,1);}
+  50%{color: purple;}
+	100%{color: rgba(200,100,200,1);}
+}
+
+/* Buttons */
+
+.btn-container, .container {
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.btn-gradient {
+	margin: 5px;
+}
+
+/* Gradient buttons */
+.btn-gradient {
+	text-decoration: none;
+	color: white;
+	padding: 10px 30px;
+	display: inline-block;
+	position: relative;
+	border: 1px solid rgba(0,0,0,0.21);
+	border-bottom: 4px solid rgba(0,0,0,0.21);
+	border-radius: 4px;
+	text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+}
+/* Gradient - ugly css is ugly */
+.btn-gradient.cyan {
+	background: rgba(27,188,194,1);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(27,188,194,1)), to(rgba(24,163,168,1)));
+	background: -webkit-linear-gradient(rgba(27,188,194,1) 0%, rgba(24,163,168,1) 100%);
+	background: -moz-linear-gradient(rgba(27,188,194,1) 0%, rgba(24,163,168,1) 100%);
+	background: -o-linear-gradient(rgba(27,188,194,1) 0%, rgba(24,163,168,1) 100%);
+	background: linear-gradient(rgba(27,188,194,1) 0%, rgba(24,163,168,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1bbcc2', endColorstr='#18a3a8', GradientType=0);
+}
+
+.btn-gradient.red{
+	background: rgba(250,90,90,1);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(250,90,90,1)), to(rgba(232,81,81,1)));
+	background: -webkit-linear-gradient(rgba(250,90,90,1) 0%, rgba(232,81,81,1) 100%);
+	background: -moz-linear-gradient(rgba(250,90,90,1) 0%, rgba(232,81,81,1) 100%);
+	background: -o-linear-gradient(rgba(250,90,90,1) 0%, rgba(232,81,81,1) 100%);
+	background: linear-gradient(rgba(250,90,90,1) 0%, rgba(232,81,81,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa5a5a', endColorstr='#e85151', GradientType=0 );
+}
+.btn-gradient.orange {
+	background: rgba(255,105,30,1);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,105,30,1)), to(rgba(230,95,28,1)));
+	background: -webkit-linear-gradient(rgba(255,105,30,1) 0%, rgba(230,95,28,1) 100%);
+	background: -moz-linear-gradient(rgba(255,105,30,1) 0%, rgba(230,95,28,1) 100%);
+	background: -o-linear-gradient(rgba(255,105,30,1) 0%, rgba(230,95,28,1) 100%);
+	background: linear-gradient(rgba(255,105,30,1) 0%, rgba(230,95,28,1) 100%);
+}
+.btn-gradient.blue {
+	background: rgba(102,152,203,1);
+	background: -moz-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(102,152,203,1)), color-stop(100%, rgba(92,138,184,1)));
+	background: -webkit-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+	background: -o-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+	background: -ms-linear-gradient(top, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+	background: linear-gradient(to bottom, rgba(102,152,203,1) 0%, rgba(92,138,184,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6698cb', endColorstr='#5c8ab8', GradientType=0 );
+}
+.btn-gradient.purple {
+	background: rgba(203,153,197,1);
+	background: -moz-linear-gradient(top, rgba(203,153,197,1) 0%, rgba(181,134,176,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(203,153,197,1)), color-stop(100%, rgba(181,134,176,1)));
+	background: -webkit-linear-gradient(top, rgba(203,153,197,1) 0%, rgba(181,134,176,1) 100%);
+	background: -o-linear-gradient(top, rgba(203,153,197,1) 0%, rgba(181,134,176,1) 100%);
+	background: -ms-linear-gradient(top, rgba(203,153,197,1) 0%, rgba(181,134,176,1) 100%);
+	background: linear-gradient(to bottom, rgba(203,153,197,1) 0%, rgba(181,134,176,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb99c5', endColorstr='#b586b0', GradientType=0 );
+}
+.btn-gradient.yellow {
+	background: rgba(240,210,100,1);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(240,210,100,1)), to(rgba(229,201,96,1)));
+	background: -webkit-linear-gradient(rgba(240,210,100,1) 0%, rgba(229,201,96,1) 100%);
+	background: -moz-linear-gradient(rgba(240,210,100,1) 0%, rgba(229,201,96,1) 100%);
+	background: -o-linear-gradient(rgba(240,210,100,1) 0%, rgba(229,201,96,1) 100%);
+	background: linear-gradient(rgba(240,210,100,1) 0%, rgba(229,201,96,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0d264', endColorstr='#e5c960', GradientType=0 );
+}
+.btn-gradient.green {
+	background: rgba(130,200,160,1);
+	background: -moz-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(130,200,160,1)), color-stop(100%, rgba(130,199,158,1)));
+	background: -webkit-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+	background: -o-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+	background: -ms-linear-gradient(top, rgba(130,200,160,1) 0%, rgba(130,199,158,1) 100%);
+	background: linear-gradient(to bottom, rgba(130,200,160,1) 0%, rgba(124, 185, 149, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82c8a0', endColorstr='#82c79e', GradientType=0 );
+}
+
+.btn-gradient.red:active 	  {background: #E35252;}
+.btn-gradient.orange:active {background: #E8601B;}
+.btn-gradient.cyan:active 	{background: #169499;}
+.btn-gradient.blue:active 	{background: #608FBF;}
+.btn-gradient.purple:active {background: #BD8EB7;}
+.btn-gradient.yellow:active {background: #DBC05B;}
+.btn-gradient.green:active  {background: #72B08E;}
+
+
+
+.App {
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: relative;
+background: linear-gradient(170deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: bgrainbow 16s ease infinite;
+-z-animation: bgrainbow 16s ease infinite;
+-o-animation: bgrainbow 16s ease infinite;
+  animation: bgrainbow 16s ease infinite;}
+
+@-webkit-keyframes bgrainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes bgrainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes bgrainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes bgrainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
 }
