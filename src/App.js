@@ -75,7 +75,7 @@ function App() {
               <li>2:00 DJ REQUESTS</li>
               </ul>
               <h4>Open 7:30pm - 3am</h4>
-              <a href="https://zoom.us/j/98256028274?pwd=U1JkQ29WNWdJMkRibTZ5dmpNRHhWQT09" className="btn-gradient purple" target="_blank">Join the room</a>
+              <a href="https://zoom.us/" className="btn-gradient purple" target="_blank">Join the room</a>
             </div>
           </div>
 
@@ -91,7 +91,7 @@ function App() {
                 <li>Pets are of course welcome to join in here!</li>
               </ol>
               <h4>Open 7:30pm - 3am</h4>
-              <a href="https://era-co.zoom.us/j/9268445195" target="_blank" className="btn-gradient green">Join the room</a>
+              <a href="https://zoom.us/" target="_blank" className="btn-gradient green">Join the room</a>
             </div>
           </div>
 
@@ -108,7 +108,7 @@ function App() {
                 <li>Password: photobooth</li>
               </ol>
               <h4>Open 7:30pm - 1am</h4>
-            	<a href="https://us04web.zoom.us/j/73957984880?pwd=dytWcitWWkZsRGFiOWMvWm15VllWdz09" target="_blank" className="btn-gradient blue">Join the room</a>
+            	<a href="https://zoom.us/" target="_blank" className="btn-gradient blue">Join the room</a>
             </div>
           </div>
 
@@ -138,7 +138,7 @@ function App() {
                 <li>be nice</li>
               </ul>
               <h4>Open 9pm - 1am</h4>
-              <a href="https://zoom.us/j/93967494826" target="_blank" className="btn-gradient yellow">Join the room</a>
+              <a href="https://zoom.us/" target="_blank" className="btn-gradient yellow">Join the room</a>
             </div>
           </div>
 
@@ -158,7 +158,7 @@ function App() {
                 <li>B.Y.O microphone… a drink bottle? A banana?</li>
               </ol>
               <h4>Open 10pm - 1am</h4>
-              <a href="https://unimelb.zoom.us/j/6027448106" target="_blank" className="btn-gradient cyan">Join the room</a>
+              <a href="https://zoom.us/" target="_blank" className="btn-gradient cyan">Join the room</a>
             </div>
           </div>
 
@@ -173,7 +173,7 @@ function App() {
                 <li>Give our boy a big virtual birthday cuddle</li>
                 <li>And catch up on old times</li>
               </ul>
-              <a href="https://greenpeace.zoom.us/j/2208041806" target="_blank" className="btn-gradient orange">Join the room</a>
+              <a href="https://zoom.us/" target="_blank" className="btn-gradient orange">Join the room</a>
             </div>
           </div>
 
@@ -192,7 +192,7 @@ function App() {
               </ul>
               <p>*** This room will be recorded so Sam can watch your messages later ***</p>
               <h4>Open 7:30pm - 1am</h4>
-              <a href="https://getup.zoom.us/j/5696787878" target="_blank" className="btn-gradient purple">Join the room</a>
+              <a href="https://zoom.us/" target="_blank" className="btn-gradient purple">Join the room</a>
             </div>
           </div>
         </div>
